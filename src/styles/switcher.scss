@@ -1,0 +1,35 @@
+.switcher {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background: #F3F4F6;
+  border-radius: 6px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 243px;
+  margin-bottom: 31px;
+  margin-top: 39px;
+
+  div {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 100%;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    span {
+      font-size: 14px;
+      line-height: 15px;
+      color: #4D5562;
+    }
+  }
+
+  .choosen {
+    background: #FFFFFF;
+    border-color: #E2E3E5;
+    border-radius: 5px;
+  }
+}

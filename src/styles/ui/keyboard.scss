@@ -1,0 +1,13 @@
+.keyboard {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8px;
+  
+  &__item {
+    &:nth-child(10) {
+      grid-column: 1/3;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.sidebar {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-row: 2/3;
+}
+
+.equal__btn {
+  max-width: 240px;
+  margin-top: 12px;
+  grid-column: 1/2;
+
+  
+  div {
+    background: #5D5FEF;
+    border-radius: 6px;
+    color: #fff;
+    &:active {
+      background-color: #5D5FEF;
+    }
+  }
+}
